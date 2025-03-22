@@ -16,12 +16,12 @@ import {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDPoSdgK989G56L4sMvMazUW13B0X6uvDo",
-  authDomain: "pharmmatch-c93f3.firebaseapp.com",
-  projectId: "pharmmatch-c93f3",
-  storageBucket: "pharmmatch-c93f3.appspot.com",
-  messagingSenderId: "854767155054",
-  appId: "1:854767155054:web:aabf91f35eb7a51854737f"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGING_SENDER_ID,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 
