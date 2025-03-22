@@ -1,30 +1,3 @@
-import React, { useEffect, useState } from 'react';
-import { initializeApp } from 'firebase/app';
-import {
-  getFirestore,
-  collection,
-  addDoc,
-  getDocs
-} from 'firebase/firestore';
-import {
-  getAuth,
-  signInWithEmailAndPassword,
-  createUserWithEmailAndPassword,
-  onAuthStateChanged,
-  signOut
-} from 'firebase/auth';
-
-
-const firebaseConfig = {
-  apiKey: "AIzaSyDPoSdgK989G56L4sMvMazUW13B0X6uvDo",
-  authDomain: "pharmmatch-c93f3.firebaseapp.com",
-  projectId: "pharmmatch-c93f3",
-  storageBucket: "pharmmatch-c93f3.appspot.com",
-  messagingSenderId: "854767155054",
-  appId: "1:854767155054:web:aabf91f35eb7a51854737f"
-};
-
-
 // Your Firebase imports and config...
 
 const app = initializeApp(firebaseConfig);
